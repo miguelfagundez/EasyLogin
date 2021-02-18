@@ -17,8 +17,8 @@ class LoginButtonWidget extends StatelessWidget {
         builder: (BuildContext context, AsyncSnapshot snapshot){
           return ElevatedButton(
             onPressed: snapshot.hasData ? (){
-              //_printValues(bloc, context);
-              Navigator.pushNamed(context, Constants.HOME_ROUTE);
+              //Navigator.pushNamed(context, Constants.HOME_ROUTE);
+              Navigator.pushReplacementNamed(context, Constants.HOME_ROUTE);
             } : null,
             child: Container(
               padding: EdgeInsets.symmetric(
