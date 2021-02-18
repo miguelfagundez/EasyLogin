@@ -10,10 +10,10 @@ export 'package:flutter/material.dart';
 class MyBackgroundColors{
 
   //****************************************************
-  // Primary color for button and icons in login box
+  // Primary color for button, text and icons in login box
   //****************************************************
-  // static final MaterialColor myGeneralColor = Colors.pink;
-   static final MaterialColor myGeneralColor = Colors.lightGreen;
+   static final MaterialColor myGeneralColor = Colors.pink;
+  // static final MaterialColor myGeneralColor = Colors.lightGreen;
   // static final MaterialColor myGeneralColor = Colors.lightBlue;
 
    // List of colors for background

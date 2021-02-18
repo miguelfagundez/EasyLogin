@@ -28,7 +28,7 @@ class BackgroundColorLinearGradientWidget extends StatelessWidget {
         // Applying LinearGradient
         // Values from 0 to 6
         gradient: LinearGradient(
-            colors: MyBackgroundColors.getListColors(5),
+            colors: MyBackgroundColors.getListColors(1),
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter
         ),
